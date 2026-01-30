@@ -1,4 +1,7 @@
-resource "azurerm_resource_group" "rg" {
-    name = "web-rg"
-    location = "centralus"
-    }
+locals {
+  
+}
+resource "azurerm_resource_group" "webapp_rg" {
+  name     = "WebappRG"
+  location = "cus2"
+}

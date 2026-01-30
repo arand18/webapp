@@ -6,10 +6,4 @@ terraform {
       version = "~> 4.0"
     }
   }
-  backend "remote" {
-    organization = "AlishaTForg"
-    workspaces {
-      name = "Tfweb"
-    }
-  }
 }
